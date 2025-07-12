@@ -1,12 +1,38 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Prerequisites
 
-Currently, two official plugins are available:
+-   [Node.js](https.nodejs.org) 
+-   [npm](https://www.npmjs.com/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### 1. Clone the Repository
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/your-username/benny-frontend.git
+cd benny-frontend
+```
+
+### 2. Install Dependencies
+
+Install all the required npm packages
+
+```bash
+npm install
+```
+
+You might need to install tailwind/vite separately, just somethign I ran into
+
+```bash
+npm install @tailwindcss/vite
+```
+
+### 3. Run the Development Server
+
+
+```bash
+npm run dev
+```
+
+It should then run in your browser
+
+-   **Local:** `http://localhost:5173/`
