@@ -14,7 +14,7 @@ const ChatBubble = ({ message, icon }) => {
       } else {
         clearInterval(timer);
       }
-    }, 30);
+    }, 15); // This handles the speed of the chat bubble.
     return () => clearInterval(timer);
   }, [message]);
 
